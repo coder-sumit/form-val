@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+
+}
+body{
+    background: #fff5fd;
+}
+.container{
+    text-align: center;
+    padding: 30px 10px;
+    /* background: cornsilk; */
+}
+.container .heading{
+    color: #0a81ab;
+    margin-bottom: 1rem;
+}
+
+.container input, textarea{
+    margin-top: 25px;
+    width: 80%;
+    padding: 7px 15px;
+    border: 2px solid #a9a9a9;
+    resize: none;
+    font-size: 1.1rem;
+}
+::placeholder{
+    font-size: 1.1rem;
+    color: #a9a9a9;
+}
+
+#btn{
+    background: #0a81ab;
+    color: #fff5fd;
+    border: none;
+    padding: 7px 13px;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.error-small{
+    color: #f55c47;
+   font-size: 18px;
+   padding-top: 3px;
+   
+}
+
